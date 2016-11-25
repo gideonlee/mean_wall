@@ -1,0 +1,27 @@
+<div class='inline login'>
+	<h2>Login</h2>
+	<form class='loginReg'>
+		<label>Email</label>
+		<input type='text' ng-model='login_user.email'>
+		<label>Password</label>
+		<input type='password' ng-model='login_user.password'>
+		<input class='btn btn-default' type='submit' value='Login' ng-click='login()'>
+	</form>
+</div>
+
+<div class='inline reg'>
+	<h2>Register</h2>
+	<form class='loginReg'>
+		<label>Name</label>
+		<input type='text' ng-model='register_user.name'>
+		<label>Email</label>
+		<input type='text' ng-model='register_user.email'>
+		<label>Password</label>
+		<input type='password' ng-model='register_user.password'>
+		<label>Password</label>
+		<input type='password' ng-model='register_user.password_confirm'>
+		<input class='btn btn-default' type='submit' value='Register' ng-click='register()'>
+	</form>
+</div>
+
+<flash-message class='flash' duration='3000' show-close='true'></flash-message>

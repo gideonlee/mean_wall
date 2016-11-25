@@ -1,0 +1,57 @@
+* {
+	/*outline: 2px solid black;*/
+	/*margin: 0 auto;*/
+}
+.login {
+	margin-left: 18%;
+}
+.reg {
+	margin-left: 18%;
+	margin-top: 10px;
+}
+.loginReg label {
+	display: block;
+}
+.loginReg input {
+	display: block;
+}
+.loginReg input[type=submit] {
+	margin-top: 20px;
+}
+.inline {
+	vertical-align: top;
+	display: inline-block;
+}
+	h4.inline {
+		margin-right: 15px;		
+	}
+	form.inline {
+		float: right;
+		margin-top: 23px;
+	}
+	.postForm textarea {
+		margin-bottom: 10px;
+		width: 100%;
+		height: 100px;
+		resize: none;
+	}
+	.postForm div {
+		text-align: right;
+	}
+
+.posts {
+	margin-bottom: 35px;	
+}
+	.comments {
+		width: 95%;
+		margin-left: 3%;
+	}
+	.commentForm {
+		text-align: right;
+	}
+	.commentForm textarea {
+		margin-bottom : 10px;
+		width: 95%;
+		height: 50px;
+		resize: none;
+	}
